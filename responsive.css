@@ -1,0 +1,35 @@
+@media screen and (max-width: 480px) {
+	#pizza {
+    max-width: 100%;
+    height: auto;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	h1 {
+		text-align: center;
+		font-size: 2em;
+	}
+	h2 {
+		text-align: center;
+	}
+	#pizza {
+    max-width: 100%;
+    height: auto;
+	}
+}
+
+@media screen and (min-width: 660px) {
+	h1 {
+		text-align: center;
+		font-size: 3em;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	ul {
+		text-align: center;
+	}
+}

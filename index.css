@@ -1,0 +1,69 @@
+header {
+  font-family: helvetica; 
+  font-size: .75em;
+  text-align: center;
+  text-indent: 10px;
+  background: black;
+  color: white;
+  padding: .25em 0;
+}
+
+h1 {
+  margin: 3em 0 1em 0;
+}
+
+h2 {
+  margin: 0 0 1em 0;
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: 00FFFF;
+}
+
+a:hover {
+  color: #FF1493;
+}
+
+a:active {
+  color: purple;
+}
+
+body {
+  background: black;
+}
+
+#pizza {
+  width: 700px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.center {
+    overflow: hidden;
+    transition-duration: 2s;
+    transition-property: transform;
+}
+
+.center:hover {
+    transform: rotate(1080deg);
+    -webkit-transform: rotate(1080deg);
+}
+
+#wrap {
+  min-height: 100vh;
+}
+
